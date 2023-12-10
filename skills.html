@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Michael Burks</title>
+    <script src="script.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body {
+            background-color: rgb(0, 0, 0);
+        }
+
+        img#main-image {
+            width: 100%;
+            max-width: 400px;
+            height: auto;
+        }
+
+        .social-icons {
+            display: flex; 
+            justify-content: center; 
+            margin-top: 10px; 
+        }
+
+        .social-icons img {
+            width: 90px; 
+            height: auto;
+            margin: 0 10px; 
+        }
+        
+        .content-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .skills-list {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .skills-list li {
+            font-size: 1.2em;
+            font-weight: bold;
+            margin-bottom: 20px;
+            background-color: rgba(240, 101, 101, 0.714);
+            padding: 10px;
+            border-radius: 10px;
+            color: #fff;
+            width: 50%; 
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+            transition: background-color 0.3s ease;
+        }
+
+        .skills-list li:hover {
+            background-color: rgb(185, 41, 41);
+        }
+
+        .skills-list li p {
+            color: #ffffff;
+        }
+
+        .skills-list li:not(:last-child) {
+            margin-bottom: 15px;
+        }
+
+    </style>
+    <script src=""></script>
+</head>
+<body>
+
+<!-- nav bar -->
+<div class="navbar">
+    <a href="index.html">Michael Burks</a>
+    <div class="dropdown">
+        <button class="dropbtn">Menu 
+            <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content" style="float:right;">
+            <a href="about.html">About</a>
+            <a href="skills.html">Skills</a>
+            <a href="projects.html">Projects</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </div> 
+</div>
+
+<!-- flexbox -->
+<div class="content-container">
+    <img id="main-image" src="james.png" alt="James Turrell">
+    <!-- Transparent imgs -->
+    <div class="social-icons">
+        <a href="https://www.google.com" target="_blank" class="transparent-image"><img src="resume.png" alt="Transparent Image 1"></a>
+        <a href="https://www.linkedin.com/in/michael-b-916711299/" target="_blank" class="transparent-image"><img src="linkedin.png" alt="LinkedIn"></a>
+        <a href="https://github.com/mdburks" target="_blank" class="transparent-image"><img src="github.png" alt="GitHub"></a>
+    </div>
+    <br>
+    <br>
+    <h2>Skills</h2>
+<ul class="skills-list">
+    <li>Python</li>
+    <li>
+        <p>Over the past 2 years, I have gained some experience with Python through 
+            classwork, labs, and personal projects. A personal project in Python
+            includes a bathroom scheduler that I created in my second year of college.
+        </p>
+    </li>
+    <li>HTML, CSS, JavaScript</li>
+    <li>
+        <p>With about 3 years of experience in HTML, I have a passion for web development
+            and design. I am relatively new to JavaScript, but I enjoy using its dynamic
+            capabilities to create interactive and engaging web experiences.
+        </p>
+    </li>
+    <li>Video Editing</li>
+       <li> 
+        <p>I have several years in video editing of which started in high school. I have
+            extentive knowledge of Adobe Premiere and enjoy editing in my free time.
+        </p>
+    </li>
+    <li>Videogame VFX</li>
+       <li> 
+        <p>
+            I have produced several short films made in videgames. I am drawn to the
+            freedom that video games offer, allowing me to explore imaginative 
+            landscapes and bring my ideas to life.
+        </p>
+    </li>
+
+</ul>
+
+</body>
+</html>
+
+
+

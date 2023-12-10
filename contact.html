@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Michael Burks</title>
+    <script src="script.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+        body {
+            background-color: rgb(0, 0, 0);
+        }
+
+        img#main-image {
+            width: 100%;
+            max-width: 400px;
+            height: auto;
+        }
+
+        /* Style for the LinkedIn, Resume, and GitHub images */
+        .social-icons {
+            display: flex;
+            justify-content: center;
+            margin-top: 10px;
+        }
+
+        .social-icons img {
+            width: 90px;
+            height: auto;
+            margin: 0 10px;
+        }
+    </style>
+
+    <script src=""></script>
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <div class="navbar">
+        <a href="index.html">Michael Burks</a>
+        <div class="dropdown">
+            <button class="dropbtn">Menu
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content" style="float:right;">
+                <a href="about.html">About</a>
+                <a href="skills.html">Skills</a>
+                <a href="projects.html">Projects</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Content Container with Flexbox -->
+    <div class="content-container">
+        <img id="main-image" src="james.png" alt="James Turrell">
+
+        <!-- Transparent images with links -->
+        <div class="social-icons">
+            <a href="https://www.google.com" target="_blank" class="transparent-image"><img src="resume.png" alt="Transparent Image 1"></a>
+            <a href="https://www.linkedin.com/in/michael-b-916711299/" target="_blank" class="transparent-image"><img src="linkedin.png" alt="LinkedIn"></a>
+            <a href="https://github.com/mdburks" target="_blank" class="transparent-image"><img src="github.png" alt="GitHub"></a>
+        </div>
+
+        <!-- Contact Form -->
+        <div class="contact-form">
+            <h2>Contact Me</h2>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

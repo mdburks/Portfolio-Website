@@ -1,0 +1,258 @@
+/* general  */
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+    background-color: #000;
+}
+
+h2 {
+    text-align: center;
+}
+
+/* header  */
+h1 {
+    font-size: 45px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 25px;
+    text-align: center;
+}
+
+/* list  */
+li {
+    text-align: center;
+}
+
+/* centering  */
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* image  */
+img {
+    max-width: 50%;
+    max-height: 70%;
+    display: block;
+    margin: auto;
+}
+
+/* navigation  */
+.navbar {
+    overflow: hidden;
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* dropdown  */
+.dropdown {
+    float: none;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: #fff;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+/* hover  */
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: rgb(185, 41, 41);
+}
+
+/* dropdown  */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #000;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* box  */
+.boxes-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.box {
+    width: 200px;
+    height: 100px;
+    background-color: #6F4E37;
+    color: #fff;
+    text-align: center;
+    line-height: 100px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+.box:hover {
+    background-color: rgb(185, 41, 41);
+}
+
+/* background  */
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+/* skills list  */
+.skills-list {
+    list-style: none;
+    padding: 0;
+}
+
+.skills-list li {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.skills-list li p {
+    margin-bottom: 15px;
+    font-weight: normal;
+}
+
+/* projects list  */
+.projects-list {
+    list-style: none;
+    padding: 0;
+}
+
+.projects-list li {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.projects-list li p {
+    margin-bottom: 15px;
+    font-weight: normal;
+}
+
+/* contact form  */
+.contact-form {
+    margin-top: 50px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.contact-form h2 {
+    color: #fff;
+}
+
+.contact-form form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.contact-form label {
+    display: block;
+    margin-top: 15px;
+    color: #fff;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    background-color: rgb(185, 41, 41);
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.contact-form button:hover {
+    background-color: #45a049;
+}
+
+/* skill list item  */
+.skills-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills-list li {
+    background-color: rgba(240, 101, 101, 0.714);
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.skills-list li p {
+    color: #ffffff;
+}
+
+.skills-list li:not(:last-child) {
+    margin-bottom: 15px;
+}
+
+
+.skills-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* project list */
+.projects-list li {
+    background-color: #6F4E37;;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.projects-list li p {
+    color: #ffffff;
+}
+
+.projects-list li:not(:last-child) {
+    margin-bottom: 15px;
+}

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Michael Burks</title>
+    <script src="script.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body {
+            background-color: rgb(0, 0, 0);
+        }
+
+        img#main-image {
+            width: 100%;
+            max-width: 400px;
+            height: auto;
+        }
+
+        .social-icons {
+            display: flex; 
+            justify-content: center; 
+            margin-top: 10px; 
+        }
+
+        .social-icons img {
+            width: 90px; 
+            height: auto;
+            margin: 0 10px; 
+        }
+
+        .content-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .projects-list {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .projects-list li {
+            font-size: 1.2em;
+            font-weight: bold;
+            margin-bottom: 20px;
+            background-color: #009c99ce;
+            padding: 10px;
+            border-radius: 10px;
+            color: #fff;
+            width: 50%; 
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+            transition: background-color 0.3s ease;
+        }
+
+        .projects-list li:hover {
+            background-color: rgb(185, 41, 41);
+        }
+    
+    </style>
+    <script src=""></script>
+</head>
+<body>
+
+<!-- nav bar -->
+<div class="navbar">
+    <a href="index.html">Michael Burks</a>
+    <div class="dropdown">
+        <button class="dropbtn">Menu 
+            <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content" style="float:right;">
+            <a href="about.html">About</a>
+            <a href="skills.html">Skills</a>
+            <a href="projects.html">Projects</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </div> 
+</div>
+
+<!--  flexbox -->
+<div class="content-container">
+    <img id="main-image" src="james.png" alt="James Turrell">
+    <!-- Transparent imgs -->
+    <div class="social-icons">
+        <a href="blank" target="_blank" class="transparent-image"><img src="resume.png" alt="Transparent Image 1"></a>
+        <a href="https://www.linkedin.com/in/michael-b-916711299/" target="_blank" class="transparent-image"><img src="linkedin.png" alt="LinkedIn"></a>
+        <a href="https://github.com/mdburks" target="_blank" class="transparent-image"><img src="github.png" alt="GitHub"></a>
+    </div>
+    <br>
+    <br>
+    <h2>Projects</h2>
+<ul class="projects-list">
+    <li>JobLaunch</li>
+    <li>
+        <p>
+            <a href="https://www.joblaunching.com/" target="_blank">JobLaunch</a> is a site that I created 
+            to help Computer Science majors with things like building a resume, networking, creating a LinkedIn 
+            profile and much more. 
+        </p>
+    </li>
+    <li>Tip Calculator</li>
+    <li>
+        <p>
+            I created a tipping calculator program allows users to input the total bill amount, tip percentage, 
+            and the number of people sharing the bill. Upon clicking "Calculate Tip," the program computes 
+            the tip amount, total bill, and, if specified, the amount each person should contribute. The 
+            results are then displayed in a user-friendly format. Click to open the <a href="tipcalculator.html" target="_blank">Tipping Calculator</a>
+        </p>
+    </li>
+</ul>
+
+</body>
+</html>
+
+
+
